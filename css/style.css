@@ -1,0 +1,20 @@
+body {
+	background:navy;
+
+}
+#wrapper {
+	text-align:center;
+}
+
+img {
+	display:inline;
+}
+#inputField {
+	margin:20px;
+}
+#searchtext {
+	height:35px;
+}
+.orangeBorder {
+	border:2px solid orange;
+}
