@@ -1,8 +1,12 @@
-body {
+/*body {
 	background:navy;
+	text-align:center;
 
 }
 #wrapper {
+}
+
+form {
 	text-align:center;
 }
 
@@ -18,3 +22,42 @@ img {
 .orangeBorder {
 	border:2px solid orange;
 }
+*/
+
+
+
+body {
+	background:#000;
+	text-align: center;
+}
+
+form {
+	width:80%;
+}
+
+label {
+	font-size: 18px;
+}
+
+#show {
+	margin: 5px;
+
+}
+#addShow {
+	background:green;
+}
+
+#netflixSearch {
+	margin: 0 auto;
+}
+
+ #gifArea {
+}
+
+
+.netflixGiphy {
+	padding: 2px;
+	width: 80%;
+} 
+ 
+

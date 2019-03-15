@@ -18,7 +18,7 @@
    <button type='submit'>click me</button>
  </div> -->
 
-<div class='container-fluid' id='wrapper'>
+<!-- <div class='container-fluid' id='wrapper'>
 
 
 
@@ -34,7 +34,42 @@
     </div>
 
 </div>
+ -->
 
+
+<body>
+
+
+<form class="form mt-5 fadeInDown animated" id="netflixSearch">
+  <div class="form-group">
+    <input type="text" id="netflixInput">
+      <input id="addShow" type="submit" value="submit">
+
+  </div>
+  <!-- Button triggers show to be added -->
+</form>
+
+<div class="row">
+  <div class="container ">
+    <div class="btn-group  inline pull-left bounce animated">
+      <button class="btn btn-warning" id="show" data-search="Stranger Things">Stranger Things</button>
+      <button class="btn btn-warning" id="show" data-search="Narcos">Narcos</button>
+      <button class="btn btn-warning" id="show" data-search="Luke Cage">Luke Cage</button>
+      <button class="btn btn-warning" id="show" data-search="Jessica Jones">Jessica Jones</button>
+       <button class="btn btn-warning" id="show" data-search="Stranger Things">Stranger Things</button>
+
+
+      <div id="myButtons"></div>
+    </div> <!--end of button group -->
+  </div> <!--end of container -->
+</div> <!--end of row -->
+
+
+<div class="row">
+  <div class="container ">
+      <span><div id="gifArea"></div></span>
+  </div> <!--end of container -->
+</div> <!-- end of row  -->
 
 <script
   src="https://code.jquery.com/jquery-3.3.1.js"
